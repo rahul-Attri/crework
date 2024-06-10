@@ -1,0 +1,380 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    min-height:100vh;
+    width: 100%;
+    /* background-color: salmon; */
+    /* background:linear-gradient(to right,white,rgba(81, 6, 194,0.1); */
+    
+}
+/* -------------------------Nav bar css Start ----------------------------- */
+.nav{
+    height:14vh;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 30px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top:0;
+}
+.nav-part2{
+    display: flex;
+    gap:30px;
+    font-size: 10px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.nav-part2 a{
+    color: black;
+    text-decoration: none;
+}
+/* .nav-part2 a,button:hover{
+    cursor: pointer;
+} */
+/* .nav-part2 button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border:1.5px solid #12035c;
+    color:#12035c;
+
+} */
+.nav-part2 h2{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* --------------------------------------nav bar css end----------------------------------------- */
+
+
+/* -----------------------------------------home page css start--------------------------------------- */
+
+.home{
+    height:100vh;
+    width: 100%;
+    /* background-color:blue; */
+    display: flex;
+    background:linear-gradient(to right,white,rgba(81, 6, 194,0.08));
+    }
+.home-left{
+    height: 100vh;
+    width: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    padding: 25px;
+    line-height: 80px;
+}
+.home-left{
+    text-transform: capitalize;
+    /* font-size: 2rem; */
+    color: black;
+}
+.home-left h1{
+    font-size: 4rem;
+    color:black;
+}
+.home-left #home-highlight{
+    color:#587af5;
+}
+.home-left h3{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.home-left button{
+    /* height: 40px;*/
+    width: 240px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size:18px;
+    font-weight:400;
+    margin-left: 30%;
+    background-color:#587af5;
+    color:white;
+    padding: 20px;
+}
+.home-left button a{
+    color:white;
+    text-decoration: none;
+}
+
+.home-right{
+    height:100vh;
+    width:50%;
+    /* background-color:green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.home-right img{
+    height: 75%;
+    width: 75%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+/* -------------------------------------------------page2 css start------------------------ */
+.page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction:column;
+}
+.page2-part1{
+    height: 35%;
+    width: 100%;
+    background:linear-gradient(to right,#0464b8,#093fbd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page2-part1 h1,h2{
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.page2-part1-part1{
+    display: flex;
+    /* background-color: #587af5; */
+    height: 18vh;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page2-part1-part1 span{
+    height: 100px;
+    width: 25%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page2-part2{
+    height: 65%;
+    width: 100%;
+    /* background-color:green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:28px;
+}
+.page2-part2 button{
+    /* height: 40px;
+    width: 100px; */
+    padding: 14px 30px;
+    font-size: 1.4em;
+    font-family: 700;
+    border-radius: 20px;
+    background-color: #587af5;
+    border: none;
+    color:white;
+    margin-top: 10px;
+}
+/* ----------------------------------------------page2 css end----------------------------------------- */
+
+/* -----------------------------------------------page3 css start---------------------------------------- */
+
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(to right,white,rgba(81, 6, 194,0.08));
+    text-align: center;
+    padding: 50px 10px;
+}
+.companies{
+    height:100%;
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.companies span{
+    height: 25%;
+    width: 15%;
+    /* background-color: grey; */
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companies span img{
+    height: 100%;
+    width: 100%;
+}
+.companies span h1{
+    font-weight:10;
+    font-size: 30px;
+    color:black
+}
+/* -----------------------------------------page3 css end------------------------------------------------- */
+/* ---------------------------------------------page4 css start------------------------------------------------ */
+
+
+.page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 30px 30px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color:black;
+}
+.page4-part1{
+    height:50vh;
+    width: 100%;
+    /* background-color: #093fbd; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.page4-part1 span{
+    height: 90%;
+    width: 20%;
+    background-color:#544d4d;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow:5px 5px 20px 4px black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    color:white;
+}
+
+
+
+
+.team{
+    height: 110vh;
+    width: 100%;
+    /* background-color: salmon;     */
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    justify-content: center;
+    position: relative;
+}
+.team>h1{
+    position: absolute;
+    top:0px;
+}
+.team-parts{
+    height: 96vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.team-part{
+    height: 50vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.team-part span{
+    height: 100%;
+    width: 30%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team-part span img{
+    height: 70%;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.connection{
+    height: 70vh;
+    width: 100%;
+    background-color:#e1f0f2;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.connection-part1{
+    height: 40%;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+.connection-part1 h2{
+    color:#f01149;
+}
+.connection-part2{
+    height: 60%;
+    width: 100%;
+    /* background-color: lightgray; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.connection-part2-link{
+    height: 80%;
+    width: 25%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    gap:10px;
+
+}
+.connection-part2-link a:hover{
+    cursor: pointer;
+}
+.connection-part2-link h2{
+    font-weight: 100;
+    color:black;
+}
